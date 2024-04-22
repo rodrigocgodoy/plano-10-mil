@@ -568,7 +568,7 @@ body {
 
 .container-watch {
   padding-top: 20px;
-  padding-bottom: 44px;
+  padding-bottom: 88px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -627,4 +627,81 @@ body {
   line-height: 40px;
   font-weight: 600;
   color: #FFFFFF;
+}
+
+/* ---------------- Watch Section ---------------- */
+
+.mentor-section {
+  position: relative;
+}
+
+.mentor-blur-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-image: linear-gradient(to right, rgba(151, 222, 0, 0), rgba(151, 222, 0, 1), rgba(151, 222, 0, 0.02));
+  height: 1px;
+  width: 100%;
+}
+
+.container-mentor {
+  padding-top: 59px;
+  padding-bottom: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url('img/bg-mentor.webp');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.mentor-content {
+  display: flex;
+  align-items: center;
+  gap: 97px;
+  position: relative;
+}
+
+.mentor-content-img {
+  width: 558px;
+  z-index: 0;
+}
+
+.mentor-content-right {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.mentor-title {
+  margin-bottom: 33px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.mentor-title span {
+  color: #97DE00;
+}
+
+.mentor-text {
+  margin-bottom: 23px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.mentor-content-bg-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
