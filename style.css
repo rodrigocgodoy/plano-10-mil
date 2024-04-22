@@ -15,6 +15,8 @@ body {
   margin: 0 auto;
 }
 
+/* ---------------- Header ---------------- */
+
 .container-header {
   display: flex;
   justify-content: space-between;
@@ -72,4 +74,187 @@ body {
   font-size: 32px;
   line-height: 38px;
   color: #97DE00;
+}
+
+/* ---------------- Hero Section ---------------- */
+
+.hero-section {
+  background-image: url('img/bg-hero.webp');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.container-hero {
+  padding-top: 92px;
+  padding-bottom: 116px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-left-header {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.hero-logo {
+  height: 63px;
+}
+
+.hero-divider {
+  height: 50px;
+  width: 1px;
+  background-image: linear-gradient(to bottom, rgba(151, 222, 0, 0), rgba(151, 222, 0, 1), rgba(151, 222, 0, 0.02));
+}
+
+.hero-left-header-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hero-left-header-infos-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #97DE00;
+}
+
+.hero-left-header-infos-text-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.hero-left-title {
+  font-family: "Exo 2", sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #FFFFFF;
+  max-width: 20ch;
+  width: 100%;
+  margin: 44px 0 38px;
+}
+
+.hero-left-title span {
+  color: #97DE00;
+}
+
+.hero-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.hero-form-label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.hero-form-text {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #CCCCCC;
+}
+
+.hero-form-text a {
+  font-weight: 600;
+  color: #C5CCD6;
+}
+
+.hero-people {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 74px;
+}
+
+.hero-people-img {
+  height: 42px;
+}
+
+.hero-people-text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  max-width: 65ch;
+  width: 100%;
+}
+
+.hero-people-text span {
+  font-weight: 500;
+}
+
+/* ---------------- Hero Section ---------------- */
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-input {
+  border-radius: 6px;
+  padding: 15px 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+  max-width: 340px;
+  width: 100%;
+}
+
+.form-input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #CCCCCC;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.form-button-line {
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(151, 222, 0, 0), rgba(151, 222, 0, 1), rgba(151, 222, 0, 0.02));
+}
+
+.form-button-text {
+  background-image: linear-gradient(to right, rgba(198, 255, 76, 1), rgba(151, 222, 0, 1), rgba(105, 154, 0, 1));
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #02081F;
+  padding: 15px 59px;
+  border-radius: 6px;
 }
