@@ -210,7 +210,7 @@ body {
   font-weight: 500;
 }
 
-/* ---------------- Hero Section ---------------- */
+/* ---------------- Form Component ---------------- */
 
 .form {
   display: flex;
@@ -262,6 +262,22 @@ body {
   color: #02081F;
   padding: 15px 59px;
   border-radius: 6px;
+}
+
+.form-vertical {
+  flex-direction: column;
+}
+
+.form-vertical .form-input {
+  max-width: 100%;
+}
+
+.form-vertical .form-button {
+  width: 100%;
+}
+
+.form-vertical .form-button .form-button-text {
+  width: 100%;
 }
 
 /* ---------------- For who Section ---------------- */
@@ -542,5 +558,73 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 24px;
+  color: #FFFFFF;
+}
+
+/* ---------------- Watch Section ---------------- */
+
+.watch-section {
+}
+
+.container-watch {
+  padding-top: 20px;
+  padding-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.watch-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.watch-content {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  padding: 19px 127px 0 81px;
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #02081F;
+  background-image: url('img/bg-texture.webp');
+}
+
+.watch-blur-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 0;
+}
+
+.watch-blur-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: 0;
+}
+
+.watch-img {
+  width: 549px;
+  z-index: 1;
+}
+
+.watch-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+  z-index: 1;
+}
+
+.watch-right-title {
+  font-family: "Exo 2", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
   color: #FFFFFF;
 }
