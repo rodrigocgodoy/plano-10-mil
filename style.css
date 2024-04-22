@@ -17,6 +17,13 @@ body {
 
 /* ---------------- Header ---------------- */
 
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .container-header {
   display: flex;
   justify-content: space-between;
@@ -84,21 +91,27 @@ body {
 }
 
 .container-hero {
-  padding-top: 92px;
+  padding-top: 185px;
   padding-bottom: 116px;
   display: flex;
   flex-direction: column;
   gap: 100px;
+  position: relative;
 }
 
-.hero-content {
-  display: flex;
-  flex-direction: column;
+.hero-leandro {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 722px;
+  z-index: 0;
 }
 
 .hero-left {
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .hero-left-header {
@@ -284,6 +297,18 @@ body {
 
 .for-who-section {
   background-image: url('img/bg-texture.webp');
+  position: relative;
+}
+
+.for-who-blur-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-image: linear-gradient(to right, rgba(151, 222, 0, 0), rgba(151, 222, 0, 1), rgba(151, 222, 0, 0.02));
+  height: 1px;
+  width: 100%;
 }
 
 .container-for-who {
@@ -389,17 +414,6 @@ body {
 
 .learn-section {
   position: relative;
-}
-
-.learn-section-blur-top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-
-  background-image: linear-gradient(to right, rgba(151, 222, 0, 0), rgba(151, 222, 0, 1), rgba(151, 222, 0, 0.02));
-  height: 1px;
-  width: 100%;
 }
 
 .container-learn {
