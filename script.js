@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minutesEl = document.getElementById("minutes");
 const secondsEl = document.getElementById("seconds");
 
-const finalDate = "10/01/2024";
+const finalDate = "06/03/2024 20:00:00";
 
 function countdown() {
   const finalDateFormat = new Date(finalDate);
