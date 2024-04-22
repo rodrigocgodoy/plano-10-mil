@@ -90,6 +90,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.hero-section.v2 {
+  background-image: url('img/bg-hero-2.webp');
+}
+
 .container-hero {
   padding-top: 185px;
   padding-bottom: 116px;
@@ -102,10 +106,17 @@ body {
 .hero-leandro {
   position: absolute;
   right: 0;
-  top: 50%;
-  transform: translate(0, -50%);
+  bottom: 0;
+  /* top: 50%;
+  transform: translate(0, -50%); */
   width: 722px;
   z-index: 0;
+}
+
+.hero-section.v2 .hero-leandro {
+  width: 826px;
+  transform: none;
+  top: auto;
 }
 
 .hero-left {
