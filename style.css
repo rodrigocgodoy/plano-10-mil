@@ -131,6 +131,9 @@ body {
   line-height: 18px;
   font-weight: 700;
   color: #97DE00;
+  gap: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-left-header-infos-text-2 {
@@ -139,6 +142,10 @@ body {
   line-height: 18px;
   font-weight: 500;
   color: #FFFFFF;
+}
+
+.hero-left-header-infos-icon {
+  height: 17px;
 }
 
 .hero-left-title {
