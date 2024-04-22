@@ -692,7 +692,7 @@ body {
 }
 
 .mentor-content-img {
-  width: 558px;
+  width: 555px;
   z-index: 0;
 }
 
@@ -727,6 +727,6 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 50px;
   z-index: 1;
 }
