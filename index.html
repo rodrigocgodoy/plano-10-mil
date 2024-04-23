@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="style-mobile.css" media="(max-width: 800px)" />
   <script src="script.js" defer></script>
+  <script src="script-form.js" defer></script>
 </head>
 <body>
   <header class="header">
@@ -96,7 +97,7 @@
             <input type="hidden" name="v" value="2" />
             <input type="hidden" name="or" value="817151deb75c96ab44cfaed00425ff6d" />
 
-            <input type="text" class="form-input" placeholder="Digite seu e-mail" required>
+            <input type="text" id="email" name="email" class="form-input" placeholder="Digite seu e-mail" required>
             <button id="_form_129_submit" class="form-button" type="submit">
               <div class="form-button-line"></div>
               <span class="form-button-text">Quero Entrar no Grupo</span>
@@ -165,11 +166,11 @@
           </p>
         </div>
       </div>
-      <button class="form-button">
+      <a class="form-button" href="#form">
         <div class="form-button-line"></div>
         <span class="form-button-text">Quero Entrar no Grupo</span>
         <div class="form-button-line"></div>
-      </button>
+      </a>
     </div>
   </section>
   <section class="learn-section">
@@ -248,7 +249,7 @@
       </div>
     </div>
   </section>
-  <section class="watch-section">
+  <section class="watch-section" id="form">
     <div class="container container-watch">
       <img src="img/icon-arrow-bottom.svg" alt="Ícone Seta" class="watch-icon">
 
@@ -307,11 +308,11 @@
         <img src="img/mentor-mobile.webp" alt="Imagem Mentor Mobile" class="mentor-content-img-mobile">
       </div>
       <div class="mentor-action">
-        <button class="form-button">
+        <a class="form-button" href="#form">
           <div class="form-button-line"></div>
           <span class="form-button-text">Quero Entrar no Grupo e Participar</span>
           <div class="form-button-line"></div>
-        </button>
+        </a>
       </div>
     </div>
   </section>

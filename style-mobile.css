@@ -228,16 +228,21 @@
 /* ---------------- Hero Thanks Section ---------------- */
 
 .container-hero-thanks {
-  padding-top: 148px;
-  padding-bottom: 170px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .hero-thanks-img {
-  height: 70.4px;
-  width: 207.72px;
+  height: 56.32px;
+  width: 166.17px;
 }
 
 .hero-thanks-title {
   font-size: 32px;
   line-height: 40px;
+  margin: 45px 0;
+}
+
+.hero-loader {
+  margin-top: 45px;
 }

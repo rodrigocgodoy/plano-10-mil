@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
 @import url("reset.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #02081F;
   color: #F5F5F5;
@@ -248,7 +252,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
-  border: none;
+  border: 1px solid transparent;
   max-width: 340px;
   width: 100%;
 }
@@ -260,6 +264,19 @@ body {
   color: #CCCCCC;
 }
 
+.form-input._has_error {
+  border-color: red;
+  color: red;
+}
+
+.form-input._has_error::placeholder {
+  color: red;
+}
+
+._error {
+  display: none;
+}
+
 .form-button {
   display: flex;
   flex-direction: column;
@@ -267,6 +284,7 @@ body {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  text-decoration: none !important;
 }
 
 .form-button-line {
@@ -311,6 +329,7 @@ body {
 .for-who-section {
   background-image: url('img/bg-texture.webp');
   position: relative;
+  overflow-x: hidden;
 }
 
 .for-who-blur-top {
@@ -842,4 +861,59 @@ body {
 
 .hero-thanks-title span {
   color: #97DE00;
+}
+
+.hero-loader {
+  margin-top: 55px;
+  position: relative;
+  max-width: 364px;
+  width: 100%;
+  height: 18px;
+  background-color: rgba(255, 255, 255, 0.38);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.hero-loader::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0.8);
+  background-color: #97DE00;
+  transform-origin: left;
+  animation: loaderAnimate 2s linear;
+  border-radius: 50px;
+}
+
+@keyframes loaderAnimate {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(0.8);
+    transform-origin: left;
+  }
+}
+
+.hero-loader-label {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(0, -50%);
+  animation: loaderLabelAnimate 2s linear;
+}
+
+@keyframes loaderLabelAnimate {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 70%;
+  }
 }
