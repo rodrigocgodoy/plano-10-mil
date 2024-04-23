@@ -1,0 +1,243 @@
+.container {
+  padding: 0 24px;
+}
+
+/* ---------------- Header ---------------- */
+
+.container-header {
+  padding-top: 12px;
+  padding-bottom: 22px;
+  justify-content: center;
+}
+
+.header-text {
+  display: none;
+}
+
+.countdown-value {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/* ---------------- Hero Section ---------------- */
+
+.container-hero {
+  padding-top: 121px;
+  padding-bottom: 93px;
+}
+
+.hero-section,
+.hero-section.v2 {
+  background-image: none;
+}
+
+.hero-leandro {
+  display: none;
+}
+
+.hero-left {
+  align-items: center;
+}
+
+.hero-left-header {
+  flex-direction: column;
+}
+
+.hero-divider {
+  display: none;
+}
+
+.hero-left-header-infos {
+  align-items: center;
+}
+
+.hero-left-header-infos-text,
+.hero-left-header-infos-text-2 {
+  text-align: center;
+}
+
+.hero-left-title {
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.hero-form-container {
+  align-items: center;
+}
+
+.hero-form-label {
+  text-align: center;
+}
+
+.hero-form-text {
+  text-align: center;
+}
+
+.hero-people {
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-people-text {
+  text-align: center;
+}
+
+.hero-people-text span {
+  color: #97DE00;
+}
+
+/* ---------------- Form Component ---------------- */
+
+.form {
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-input,
+.form-button {
+  width: 100%;
+  max-width: none;
+}
+
+.form-button-text {
+  width: 100%;
+}
+
+/* ---------------- For who Section ---------------- */
+
+.container-for-who {
+  padding-top: 42px;
+  padding-bottom: 70px;
+}
+
+.for-who-header-title {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.for-who-content {
+  flex-direction: column;
+  gap: 34px;
+  margin: 46px 0 0;
+}
+
+.container-for-who .form-button {
+  display: none;
+}
+
+.for-who-line-content {
+  display: none;
+}
+
+.for-who-item {
+  align-items: center;
+}
+
+.for-who-item-title {
+  text-align: center;
+  font-size: 22px;
+  line-height: 27.5px;
+}
+
+.for-who-item-text {
+  text-align: center;
+}
+
+/* ---------------- Learn Section ---------------- */
+
+.container-learn {
+  padding-top: 48px;
+  padding-bottom: 23px;
+}
+
+.learn-title {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.learn-content {
+  flex-direction: column;
+}
+
+.learn-item-footer-title {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.learn-item-footer-text {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* ---------------- Watch Section ---------------- */
+
+.container-watch {
+  padding-top: 23px;
+  padding-bottom: 58px;
+}
+
+.watch-content {
+  flex-direction: column;
+  padding: 52px 15px;
+}
+
+.watch-right-title {
+  text-align: center;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+/* ---------------- Watch Section ---------------- */
+
+.container-mentor {
+  padding-top: 45px;
+  padding-bottom: 85px;
+  background-image: none;
+}
+
+.mentor-content {
+  flex-direction: column;
+}
+
+.mentor-title {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.mentor-content-bg-bottom,
+.mentor-content-img {
+  display: none;
+}
+
+.mentor-content-img-mobile {
+  display: block;
+}
+
+/* ---------------- Footer ---------------- */
+
+.container-footer {
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+
+.footer-content {
+  flex-direction: column;
+}
+
+/* ---------------- Hero Thanks Section ---------------- */
+
+.container-hero-thanks {
+  padding-top: 148px;
+  padding-bottom: 170px;
+}
+
+.hero-thanks-img {
+  height: 70.4px;
+  width: 207.72px;
+}
+
+.hero-thanks-title {
+  font-size: 32px;
+  line-height: 40px;
+}
