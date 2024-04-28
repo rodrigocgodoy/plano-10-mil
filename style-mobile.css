@@ -39,6 +39,26 @@
   align-items: center;
 }
 
+.tooltip.right .tooltip-content {
+  right: 0;
+  left: auto;
+}
+
+.tooltip.right .tooltip-content::after {
+  left: auto;
+  right: 8px;
+}
+
+.tooltip.center .tooltip-content {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.tooltip.center .tooltip-content::after {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 .hero-left-header {
   flex-direction: column;
 }
@@ -225,6 +245,14 @@
   flex-direction: column;
 }
 
+.footer-right {
+  flex-direction: column;
+}
+
+.footer-dot {
+  display: none;
+}
+
 /* ---------------- Hero Thanks Section ---------------- */
 
 .container-hero-thanks {
@@ -245,4 +273,96 @@
 
 .hero-loader {
   margin-top: 45px;
+}
+
+.v3 .hero-left-title {
+  line-height: 40px;
+}
+
+.v3 .container-for-who {
+  gap: 32px;
+}
+
+.v3 .for-who-header-title {
+  max-width: 15ch;
+  width: 100%;
+}
+
+.v3 .for-who-content {
+  margin: 0;
+  gap: 32px;
+}
+
+.v3 .learn-content {
+  gap: 32px;
+}
+
+.v3 .container-watch {
+  padding-top: 23px;
+  padding-bottom: 42px;
+}
+
+.v3 .watch-section {
+  overflow-x: hidden;
+}
+
+.v3 .watch-mentor {
+  padding-bottom: 55px;
+}
+
+.v3 .watch-img.dark {
+  bottom: 45%;
+  width: 170%;
+}
+
+.v3 .watch-content {
+  margin-top: 191px;
+  padding: 28px 22px;
+}
+
+.v3 .container-mentor {
+  gap: 24px;
+  padding-top: 55px;
+}
+
+.v3 .mentor-content {
+  gap: 24px;
+}
+
+.v3 .mentor-action {
+  width: 100%;
+}
+
+.v3 .mentor-title {
+  margin-bottom: 24px;
+}
+
+.v3 .form-button {
+  width: 100%;
+}
+
+.v3 .form-button-text {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.v3 .mentor-content-img-mobile,
+.v3 .mentor-content-img.dark {
+  display: none;
+}
+
+.v3 .mentor-content-img-mobile.dark {
+  display: block;
+}
+
+.footer-right {
+  flex-direction: column;
+}
+
+.footer-dot {
+  display: none;
 }
